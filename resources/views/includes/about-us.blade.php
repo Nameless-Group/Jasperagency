@@ -5,7 +5,7 @@
                 <div class="about-content">
                     <div class="section-title mb-40 wow fadeInUp delay-0-2s">
                         <span class="sub-title mb-15">About Company</span>
-                        <h2>We’re Award-winning Web Development Agency</h2>
+                        <h2>At Jasper Agency, we proudly stand as an award-winning web development agency</h2>
                     </div>
                     <div class="text-left-border mt-60 mb-65 wow fadeInUp delay-0-2s">
                         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptat emey accusantium doloremque

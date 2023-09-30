@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Home\ContactUsController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,4 +16,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('index');
+});
+
+Route::prefix('home')->group(function () {
+    Route::post('/contact-us', [ContactUsController::class, 'store'])->name('contact_us.store');
 });

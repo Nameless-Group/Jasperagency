@@ -14,21 +14,18 @@
             <div class="col">
                 <div class="team-member wow fadeInUp delay-0-2s">
                     <div class="image">
-                        <img src=" {{ asset('assets/images/team/member6.jpg')}}" alt="Team Member">
+                        <img src=" {{ asset('assets/images/team/mine.jpg')}}" alt="Team Member">
                     </div>
                     <div class="content">
-                        <h4>Patrick V. Schroeder</h4>
-                        <span>UI/UX Designer</span>
+                        <h4>kanaan Asmail</h4>
+                        <span>Computer Engineer</span>
                         <a class="read-more" href="team-details.html"><i class="far fa-arrow-right"></i></a>
                     </div>
                     <div class="btn-social">
                         <a class="read-more" href="team-details.html"><span>View Details</span> <i
                                 class="far fa-arrow-right"></i></a>
                         <div class="social-style-two">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
-                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://www.linkedin.com/in/kenan-ismail/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
                 </div>
@@ -36,21 +33,18 @@
             <div class="col">
                 <div class="team-member wow fadeInUp delay-0-3s">
                     <div class="image">
-                        <img src=" {{ asset('assets/images/team/member7.jpg')}}" alt="Team Member">
+                        <img src=" {{ asset('assets/images/team/hammud.jpg')}}" alt="Team Member">
                     </div>
                     <div class="content">
-                        <h4>Michael A. Braun</h4>
-                        <span>UI/UX Designer</span>
+                        <h4>Hammud ElHammud</h4>
+                        <span>Computer Engineer</span>
                         <a class="read-more" href="team-details.html"><i class="far fa-arrow-right"></i></a>
                     </div>
                     <div class="btn-social">
                         <a class="read-more" href="team-details.html"><span>View Details</span> <i
                                 class="far fa-arrow-right"></i></a>
                         <div class="social-style-two">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
-                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://www.linkedin.com/in/hammud-elhammud/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
                 </div>
@@ -58,65 +52,18 @@
             <div class="col">
                 <div class="team-member wow fadeInUp delay-0-4s">
                     <div class="image">
-                        <img src=" {{ asset('assets/images/team/member8.jpg')}}" alt="Team Member">
+                        <img src=" {{ asset('assets/images/team/minlwin.jpg')}}" alt="Team Member">
                     </div>
                     <div class="content">
-                        <h4>James V. Decastro</h4>
-                        <span>Senior Marketer</span>
+                        <h4>Min Lwin Kyaw</h4>
+                        <span>Computer Engineer</span>
                         <a class="read-more" href="team-details.html"><i class="far fa-arrow-right"></i></a>
                     </div>
                     <div class="btn-social">
                         <a class="read-more" href="team-details.html"><span>View Details</span> <i
                                 class="far fa-arrow-right"></i></a>
                         <div class="social-style-two">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
-                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="team-member wow fadeInUp delay-0-5s">
-                    <div class="image">
-                        <img src=" {{ asset('assets/images/team/member9.jpg')}}" alt="Team Member">
-                    </div>
-                    <div class="content">
-                        <h4>Troy V. Richardson</h4>
-                        <span>Web Designer</span>
-                        <a class="read-more" href="team-details.html"><i class="far fa-arrow-right"></i></a>
-                    </div>
-                    <div class="btn-social">
-                        <a class="read-more" href="team-details.html"><span>View Details</span> <i
-                                class="far fa-arrow-right"></i></a>
-                        <div class="social-style-two">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
-                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="team-member wow fadeInUp delay-0-6s">
-                    <div class="image">
-                        <img src=" {{ asset('assets/images/team/member10.jpg')}}" alt="Team Member">
-                    </div>
-                    <div class="content">
-                        <h4>Michael A. Braun</h4>
-                        <span>Apps Designer</span>
-                        <a class="read-more" href="team-details.html"><i class="far fa-arrow-right"></i></a>
-                    </div>
-                    <div class="btn-social">
-                        <a class="read-more" href="team-details.html"><span>View Details</span> <i
-                                class="far fa-arrow-right"></i></a>
-                        <div class="social-style-two">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
-                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://www.linkedin.com/in/minlwinkyaw/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
                 </div>

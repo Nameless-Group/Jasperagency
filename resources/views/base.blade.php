@@ -31,6 +31,7 @@
     <link rel="stylesheet" href="{{ asset('assets/css/slick.min.css') }}">
     <!-- Main Style -->
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/plugins/toastr/toastr.min.css') }}">
 
     @stack('styles')
 </head>
@@ -84,6 +85,9 @@
 <script src=" {{ asset('assets/js/wow.min.js') }}"></script>
 <!-- Custom script -->
 <script src=" {{ asset('assets/js/script.js') }}"></script>
+<!-- Toastr script -->
+<script src="{{ asset('assets/plugins/toastr/toastr.min.js') }}"></script>
+@include('includes.flashMessages')
 <script>
     $(document).ready(function () {
         $('a').on('click', function (event) {

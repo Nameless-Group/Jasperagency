@@ -1,26 +1,22 @@
 <section class="hidden-bar">
     <div class="inner-box text-center">
-        <div class="form-check form-switch">
-            <input class="form-check-input" type="checkbox" id="modeSwitch">
-            <label class="form-check-label" for="modeSwitch">Toggle Dark Mode</label>
-        </div>
-
         <div class="cross-icon"><span class="fa fa-times"></span></div>
         <div class="title">
-            <h4>Get Appointment</h4>
+            <h4>Contact us</h4>
         </div>
 
         <!--Appointment Form-->
         <div class="appointment-form">
-            <form method="post" action="https://demo.webtend.net/html/ygency/contact.html">
+            <form method="post" action="{{ route('contact_us.store') }}">
+                @csrf
                 <div class="form-group">
-                    <input type="text" name="text" value="" placeholder="Name" required>
+                    <input type="text" name="fullname" placeholder="Full Name" required>
                 </div>
                 <div class="form-group">
-                    <input type="email" name="email" value="" placeholder="Email Address" required>
+                    <input type="email" name="email" placeholder="Joe@example.com" required>
                 </div>
                 <div class="form-group">
-                    <textarea placeholder="Message" rows="5"></textarea>
+                    <textarea placeholder="message" name="message" rows="5"></textarea>
                 </div>
                 <div class="form-group">
                     <button type="submit" class="theme-btn">Submit now</button>

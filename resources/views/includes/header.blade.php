@@ -54,33 +54,8 @@
                                     </ul>
                                 </li>
                                 <li><a href="#about">About Us</a></li>
-                                <li class="dropdown"><a href="#">pages</a>
-                                    <ul>
-                                        <li><a href="faqs.html">faqs</a></li>
-                                        <li class="dropdown"><a href="#">Products</a>
-                                            <ul>
-                                                <li><a href="shop.html">our Products</a></li>
-                                                <li><a href="product-details.html">Product Details</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="dropdown"><a href="#">Team</a>
-                                            <ul>
-                                                <li><a href="team.html">Team Members</a></li>
-                                                <li><a href="team-details.html">Team Details</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="contact.html">Contact us</a></li>
-                                        <li><a href="pricing.html">Pricing Plan</a></li>
-                                        <li><a href="404.html">404 error</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown"><a href="#">Services</a>
-                                    <ul>
-                                        <li><a href="services.html">Our Services</a></li>
-                                        <li><a href="service-details.html">Service Details One</a></li>
-                                        <li><a href="service-details2.html">Service Details Two</a></li>
-                                    </ul>
-                                </li>
+                                <li><a href="#technologies">Technologies</a></li>
+                                <li><a href="#services">Services</a></li>
                                 <li class="dropdown"><a href="#">Projects</a>
                                     <ul>
                                         <li><a href="projects.html">Project Grid</a></li>

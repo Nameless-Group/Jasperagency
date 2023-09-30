@@ -1,4 +1,4 @@
-<section class="service-area-four pt-110 rpt-85 pb-100 rpb-70"
+<section class="service-area-four pt-110 rpt-85 pb-100 rpb-70" id="services"
          style="background-image: url({{ asset('assets/images/hero/hero-two-bg.png') }})">
     <div class="container">
         <div class="row justify-content-center">
@@ -45,24 +45,10 @@
                             <i class="flaticon-brainstorming"></i>
                             <a class="more-btn" href="service-details.html"><i class="far fa-arrow-right"></i></a>
                         </div>
-                        <h5><a href="service-details.html">Team Agumentation</a></h5>
+                        <h5><a href="service-details.html">Laravel & Symfony</a></h5>
                     </div>
                     <div class="image">
                         <img src=" {{ asset('assets/images/services/service3.jpg')}}" alt="Service">
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-3 col-lg-4 col-sm-6">
-                <div class="service-four-item wow fadeInDown delay-0-2s">
-                    <div class="content">
-                        <div class="icon-btn">
-                            <i class="flaticon-brainstorming"></i>
-                            <a class="more-btn" href="service-details.html"><i class="far fa-arrow-right"></i></a>
-                        </div>
-                        <h5><a href="service-details.html">Design & Branding</a></h5>
-                    </div>
-                    <div class="image">
-                        <img src=" {{ asset('assets/images/services/service4.jpg')}}" alt="Service">
                     </div>
                 </div>
             </div>
@@ -73,7 +59,7 @@
                             <i class="flaticon-abstract"></i>
                             <a class="more-btn" href="service-details.html"><i class="far fa-arrow-right"></i></a>
                         </div>
-                        <h5><a href="service-details.html">React Js Development</a></h5>
+                        <h5><a href="service-details.html">React & Vue Js Development</a></h5>
                     </div>
                     <div class="image">
                         <img src=" {{ asset('assets/images/services/service5.jpg')}}" alt="Service">
@@ -101,7 +87,7 @@
                             <i class="flaticon-optimization"></i>
                             <a class="more-btn" href="service-details.html"><i class="far fa-arrow-right"></i></a>
                         </div>
-                        <h5><a href="service-details.html">Jamstack Development</a></h5>
+                        <h5><a href="service-details.html">Backend Development</a></h5>
                     </div>
                     <div class="image">
                         <img src=" {{ asset('assets/images/services/service7.jpg')}}" alt="Service">
@@ -115,7 +101,21 @@
                             <i class="flaticon-goal"></i>
                             <a class="more-btn" href="service-details.html"><i class="far fa-arrow-right"></i></a>
                         </div>
-                        <h5><a href="service-details.html">MVP Development</a></h5>
+                        <h5><a href="service-details.html">Admin Panels</a></h5>
+                    </div>
+                    <div class="image">
+                        <img src=" {{ asset('assets/images/services/service8.jpg')}}" alt="Service">
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-sm-6">
+                <div class="service-four-item wow fadeInDown delay-0-2s">
+                    <div class="content">
+                        <div class="icon-btn">
+                            <i class="flaticon-goal"></i>
+                            <a class="more-btn" href="service-details.html"><i class="far fa-arrow-right"></i></a>
+                        </div>
+                        <h5><a href="service-details.html">Server Solutions</a></h5>
                     </div>
                     <div class="image">
                         <img src=" {{ asset('assets/images/services/service8.jpg')}}" alt="Service">

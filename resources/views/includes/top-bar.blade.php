@@ -2,16 +2,15 @@
          style="background-image: url({{ asset('assets/images/hero/hero-two-bg.png') }})">
     <div class="container">
         <h1 class="hero-title mb-100 rmb-50 wow fadeInUp delay-0-2s">
-            Website
+            Jasper
             <span class="arrow"><img class="wow fadeInLeft delay-0-6s"
                                      src=" {{ asset('assets/images/hero/title-arrow.png') }}" alt="Arrow"></span>
-            Develop Agency
+            Agency
         </h1>
         <div class="row align-items-center justify-content-between">
             <div class="col-xl-3 col-lg-4">
                 <div class="hero-two-content mb-50 wow fadeInRight delay-0-2s">
-                    <p>Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium doloremque laudantium
-                        totam reme aperiam eaque abillo inventore</p>
+                    <p>Bridging the divide from your concept to the final product is crucial</p>
                     <img class="mt-20" src=" {{ asset('assets/images/hero/title-arrow.png') }}" alt="Arrow">
                     <div class="authors-text mt-45">
                         <img src=" {{ asset('assets/images/hero/author1.png')}}" alt="Author">
@@ -63,10 +62,9 @@
                     <h3>Innovative Web Development Solutions</h3>
                     <hr class="mb-35">
                     <div class="authors-text">
-                        <img src=" {{ asset('assets/images/hero/author1.png')}}" alt="Author">
-                        <img src=" {{ asset('assets/images/hero/author2.png')}}" alt="Author">
-                        <img src=" {{ asset('assets/images/hero/author3.png')}}" alt="Author">
-                        <img src=" {{ asset('assets/images/hero/author4.png')}}" alt="Author">
+                        <img src=" {{ asset('assets/images/hero/mine.jpg')}}" alt="kanaan">
+                        <img src=" {{ asset('assets/images/hero/hammud.jpg')}}" alt="hammud">
+                        <img src=" {{ asset('assets/images/hero/minlwin.jpg')}}" alt="minlwin">
                         <i class="fal fa-plus"></i>
                         <span class="text">We denounce indignatione dislike mende charms</span>
                     </div>
@@ -79,67 +77,71 @@
 
 
 <!-- Skills Area Start -->
-<section class="skills-area pt-100 rpt-70 rel z-1">
+<section class="skills-area pt-100 rpt-70 rel z-1" id="technologies">
     <div class="container container-1590">
         <div class="row justify-content-center">
             <div class="col-lg-6">
                 <div class="section-title text-center mb-60 wow fadeInUp delay-0-2s">
-                    <h2>Here are Numerous Topics That Will Enhance Your Skills</h2>
+                    <h2>Several topics await you, promising skill enhancement</h2>
                 </div>
             </div>
         </div>
         <div class="skills-wrap">
             <div class="skill-item">
-                <img src=" {{ asset('assets/images/skills/skill1.png')}}" alt="Skill Icon">
+                <img src=" {{ asset('assets/images/skills/bootstrap.png')}}" alt="bootstrap">
                 <span class="text">Bootstrap</span>
             </div>
             <div class="skill-item">
-                <img src=" {{ asset('assets/images/skills/skill2.png')}}" alt="Skill Icon">
+                <img src=" {{ asset('assets/images/skills/html.png')}}" alt="html">
                 <span class="text">HTML</span>
             </div>
             <div class="skill-item">
-                <img src=" {{ asset('assets/images/skills/skill3.png')}}" alt="Skill Icon">
+                <img src=" {{ asset('assets/images/skills/css.png')}}" alt="css">
                 <span class="text">CSS</span>
             </div>
             <div class="skill-item">
-                <img src=" {{ asset('assets/images/skills/skill4.png')}}" alt="Skill Icon">
+                <img src=" {{ asset('assets/images/skills/javascript.png')}}" alt="javascript">
                 <span class="text">javascript</span>
             </div>
             <div class="skill-item">
-                <img src=" {{ asset('assets/images/skills/skill5.png')}}" alt="Skill Icon">
+                <img src=" {{ asset('assets/images/skills/react.png')}}" alt="react">
                 <span class="text">React</span>
             </div>
             <div class="skill-item">
-                <img src=" {{ asset('assets/images/skills/skill6.png')}}" alt="Skill Icon">
-                <span class="text">WordPress</span>
-            </div>
-            <div class="skill-item">
-                <img src=" {{ asset('assets/images/skills/skill7.png')}}" alt="Skill Icon">
+                <img src=" {{ asset('assets/images/skills/php.png')}}" alt="php">
                 <span class="text">php</span>
             </div>
             <div class="skill-item">
-                <img src=" {{ asset('assets/images/skills/skill8.png')}}" alt="Skill Icon">
-                <span class="text">node.js</span>
+                <img src=" {{ asset('assets/images/skills/node-js.png')}}" alt="node">
+                <span class="text">Node.js</span>
             </div>
             <div class="skill-item">
-                <img src=" {{ asset('assets/images/skills/skill9.png')}}" alt="Skill Icon">
+                <img src=" {{ asset('assets/images/skills/saas.png')}}" alt="saas">
                 <span class="text">Sass</span>
             </div>
             <div class="skill-item">
-                <img src=" {{ asset('assets/images/skills/skill10.png')}}" alt="Skill Icon">
-                <span class="text">Angular</span>
-            </div>
-            <div class="skill-item">
-                <img src=" {{ asset('assets/images/skills/skill11.png')}}" alt="Skill Icon">
-                <span class="text">Shopify</span>
-            </div>
-            <div class="skill-item">
-                <img src=" {{ asset('assets/images/skills/skill12.png')}}" alt="Skill Icon">
-                <span class="text">Elementor</span>
-            </div>
-            <div class="skill-item">
-                <img src=" {{ asset('assets/images/skills/skill13.png')}}" alt="Skill Icon">
+                <img src=" {{ asset('assets/images/skills/vue.png')}}" alt="SkillIcon">
                 <span class="text">Vue.js</span>
+            </div>
+            <div class="skill-item">
+                <img src=" {{ asset('assets/images/skills/next.png')}}" alt="next" width="44" height="35">
+                <span class="text">Next.js</span>
+            </div>
+            <div class="skill-item">
+                <img src=" {{ asset('assets/images/skills/laravel.png')}}" alt="laravel" width="44" height="35">
+                <span class="text">Laravel</span>
+            </div>
+            <div class="skill-item">
+                <img src=" {{ asset('assets/images/skills/symfony.png')}}" alt="symfony" width="44" height="35">
+                <span class="text">Symfony</span>
+            </div>
+            <div class="skill-item">
+                <img src=" {{ asset('assets/images/skills/flutter.png')}}" alt="flutter" width="44" height="35">
+                <span class="text">Flutter</span>
+            </div>
+            <div class="skill-item">
+                <img src=" {{ asset('assets/images/skills/django.png')}}" alt="django" width="44" height="35">
+                <span class="text">Django</span>
             </div>
         </div>
     </div>
