@@ -8,9 +8,11 @@
                         <h2>At Jasper Agency, we proudly stand as an award-winning web development agency</h2>
                     </div>
                     <div class="text-left-border mt-60 mb-65 wow fadeInUp delay-0-2s">
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptat emey accusantium doloremque
-                            laudantium totam aperiam eaque quabillo inventore veritatisey quasi architecto beatae
-                            dictasunt</p>
+                        <p>Adopting a remote office approach, our dynamic team collaborates across various roles,
+                            including developers, DevOps experts, and engineers. As an emerging agency,
+                            we draw in vibrant talent, constantly refining our skills and expertise in this cutting-edge
+                            remote framework to deliver exceptional projects for our clients.
+                        </p>
                     </div>
                     <div class="about-counter">
                         <div class="row">
