@@ -5,7 +5,7 @@
                 <div class="about-content">
                     <div class="section-title mb-40 wow fadeInUp delay-0-2s">
                         <span class="sub-title mb-15">About Company</span>
-                        <h2>At Jasper Agency, we proudly stand as an award-winning web development agency</h2>
+                        <h3>At Jasper Agency, we proudly position ourselves as a dedicated web development agency committed to excellence.</h3>
                     </div>
                     <div class="text-left-border mt-60 mb-65 wow fadeInUp delay-0-2s">
                         <p>Adopting a remote office approach, our dynamic team collaborates across various roles,
