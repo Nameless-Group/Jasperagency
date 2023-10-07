@@ -18,16 +18,16 @@
 
     function submitForm(){
         // Initiate Variables With Form Content
-        var name = $("#name").val();
+        var fullName = $("#fullname").val();
         var email = $("#email").val();
-        var phone_number = $("#phone_number").val();
+        var type = $("#type").val();
         var message = $("#message").val();
 
 
         $.ajax({
             type: "POST",
-            url: "assets/php/form-process.php",
-            data: "name=" + name + "&email=" + email + "&phone_number=" + phone_number + "&message=" + message,
+            url: '/home/contact-us',
+            data: "fullname=" + fullName + "&email=" + email + "&type=" + type + "&message=" + message,
             success : function(text){
                 if (text == "success"){
                     formSuccess();

@@ -7,7 +7,8 @@
             <div class="header-inner rpy-10 rel d-flex align-items-center">
                 <div class="logo-outer">
                     <div class="logo"><a href="index.html"><img src=" {{ asset('assets/images/logos/logo.png')}}"
-                                                                alt="Logo" title="Logo"></a></div>
+                                                                alt="Logo" title="Logo" width="229px" height="40px"></a>
+                    </div>
                 </div>
 
                 <div class="nav-outer ms-lg-auto clearfix">
@@ -16,7 +17,8 @@
                         <div class="navbar-header py-10">
                             <div class="mobile-logo">
                                 <a href="index.html">
-                                    <img src=" {{ asset('assets/images/logos/logo.png')}}" alt="Logo" title="Logo">
+                                    <img src=" {{ asset('assets/images/logos/logo.png')}}" alt="Logo" title="Logo"
+                                        width="229px" height="40px">
                                 </a>
                             </div>
 
@@ -31,45 +33,12 @@
 
                         <div class="navbar-collapse collapse clearfix">
                             <ul class="navigation clearfix">
-                                <li class="dropdown"><a href="#">Home</a>
-                                    <ul>
-                                        <li class="dropdown"><a href="#">MultiPage</a>
-                                            <ul>
-                                                <li><a href="index.html">Web Design</a></li>
-                                                <li><a href="index2.html">Web Development</a></li>
-                                                <li><a href="index3.html">Creative Design Studio</a></li>
-                                                <li><a href="index4.html">Web Developer</a></li>
-                                                <li><a href="index5.html">Marketing Agency</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="dropdown"><a href="#">OnePage</a>
-                                            <ul>
-                                                <li><a href="index1-onepage.html">Web Design</a></li>
-                                                <li><a href="index2-onepage.html">Web Development</a></li>
-                                                <li><a href="index3-onepage.html">Creative Design Studio</a></li>
-                                                <li><a href="index4-onepage.html">Web Developer</a></li>
-                                                <li><a href="index5-onepage.html">Marketing Agency</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
+                                <li><a href="#home">Home</a></li>
                                 <li><a href="#about">About Us</a></li>
                                 <li><a href="#technologies">Technologies</a></li>
                                 <li><a href="#services">Services</a></li>
-                                <li class="dropdown"><a href="#">Projects</a>
-                                    <ul>
-                                        <li><a href="projects.html">Project Grid</a></li>
-                                        <li><a href="project-list.html">Project List</a></li>
-                                        <li><a href="project-details.html">Project Details</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown"><a href="#">blog</a>
-                                    <ul>
-                                        <li><a href="blog.html">blog Grid</a></li>
-                                        <li><a href="blog-standard.html">blog standard</a></li>
-                                        <li><a href="blog-details.html">blog details</a></li>
-                                    </ul>
-                                </li>
+                                <li><a href="#pricing">Pricing</a></li>
+                                <li><a href="#conatct-us">Contact Us</a></li>
                             </ul>
                         </div>
 

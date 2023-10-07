@@ -48,7 +48,7 @@
                         <input type="email" placeholder="Email Address" required>
                         <button type="submit"><i class="fas fa-arrow-right"></i></button>
                     </form>
-                    <p>Copyright @2023, <a href="index.html">Ygency</a> All Rights Reserved</p>
+                    <p>Copyright @2023, <a href="index.html">JasperStack</a> All Rights Reserved</p>
                 </div>
             </div>
         </div>

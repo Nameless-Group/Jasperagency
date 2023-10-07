@@ -1,5 +1,5 @@
 <section class="pricing-area-three pt-75 rpt-100 pb-85 rpb-55"
-         style="background-image: url({{ asset('assets/images/background/pricing-bg-dot-shape.png') }})">
+         style="background-image: url({{ asset('assets/images/background/pricing-bg-dot-shape.png') }})" id="pricing">
     <div class="container container-1290">
         <div class="row justify-content-center">
             <div class="col-xl-8 col-lg-10">

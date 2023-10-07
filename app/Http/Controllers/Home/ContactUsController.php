@@ -15,6 +15,7 @@ class ContactUsController extends Controller
      */
     public function store(StoreRequest $request): RedirectResponse
     {
+        dd("called");
         $data = $request->validated();
         Contact::query()->create($data);
         return back()->with('success', 'Your message created successfully');

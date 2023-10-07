@@ -33,7 +33,7 @@
             <div class="col">
                 <div class="team-member wow fadeInUp delay-0-3s">
                     <div class="image">
-                        <img src=" {{ asset('assets/images/team/hammud.jpg')}}" alt="Team Member">
+                        <img src=" {{ asset('assets/images/team/profile-pic.png')}}" alt="Team Member">
                     </div>
                     <div class="content">
                         <h4>Hammud ElHammud</h4>

@@ -87,6 +87,11 @@
 <script src=" {{ asset('assets/js/script.js') }}"></script>
 <!-- Toastr script -->
 <script src="{{ asset('assets/plugins/toastr/toastr.min.js') }}"></script>
+
+<script  src="{{ asset('assets/js/jquery.ajaxchimp.min.js') }}"> </script>
+<script  src="{{ asset('assets/js/form-validator.min.js') }}"> </script>
+<script  src="{{ asset('assets/js/contact-form-script.js') }}"> </script>
+
 @include('includes.flashMessages')
 <script>
     $(document).ready(function () {

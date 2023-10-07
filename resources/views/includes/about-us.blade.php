@@ -24,14 +24,8 @@
                             </div>
                             <div class="col-md-4 col-sm-6">
                                 <div class="counter-item-two counter-text-wrap wow fadeInUp delay-0-3s">
-                                    <span class="count-text percent" data-speed="3000" data-stop="93">0</span>
+                                    <span class="count-text percent" data-speed="3000" data-stop="100">0</span>
                                     <span class="counter-title">Success Rating</span>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-sm-6">
-                                <div class="counter-item-two counter-text-wrap wow fadeInUp delay-0-4s">
-                                    <span class="count-text plus" data-speed="3000" data-stop="35">0</span>
-                                    <span class="counter-title">Project Complete</span>
                                 </div>
                             </div>
                         </div>

@@ -1,36 +1,40 @@
 @if($area == 'top')
-<div class="headline-area bgc-primary pt-80 pb-65">
-    <div class="container-fluid">
-        <div class="headline-wrap marquee">
+    <div class="headline-area bgc-primary pt-80 pb-65">
+        <div class="container-fluid">
+            <div class="headline-wrap marquee">
                     <span>
                         <span class="marquee-item">
                             <i class="fas fa-star-of-life"></i>
-                            <b>Web Design</b>
+                            <b>Back-End Development</b>
                         </span>
                         <span class="marquee-item">
                             <i class="fas fa-star-of-life"></i>
-                            <b>Product Design</b>
+                            <b>Front-end development</b>
                         </span>
                         <span class="marquee-item">
                             <i class="fas fa-star-of-life"></i>
-                            <b>Web Development</b>
+                            <b>Mobile Application</b>
+                        </span>
+                        <span class="marquee-item">
+                            <i class="fas fa-star-of-life"></i>
+                            <b>DevOps Projects</b>
+                        </span>
+                        <span class="marquee-item">
+                            <i class="fas fa-star-of-life"></i>
+                            <b>Maintenance of the server</b>
+                        </span>
+                        <span class="marquee-item">
+                            <i class="fas fa-star-of-life"></i>
+                            <b>MVP Development</b>
                         </span>
                         <span class="marquee-item">
                             <i class="fas fa-star-of-life"></i>
                             <b>SEO Optimization</b>
                         </span>
-                        <span class="marquee-item">
-                            <i class="fas fa-star-of-life"></i>
-                            <b>UX/UI Strategy</b>
-                        </span>
-                        <span class="marquee-item">
-                            <i class="fas fa-star-of-life"></i>
-                            <b>Graphics</b>
-                        </span>
                     </span>
+            </div>
         </div>
     </div>
-</div>
 @else
     <div class="headline-area style-two bgc-primary pt-80 pb-65">
         <div class="container-fluid">

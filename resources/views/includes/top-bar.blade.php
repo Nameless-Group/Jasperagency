@@ -1,11 +1,11 @@
 <section class="hero-area-two pt-220 rpt-150 pb-80 rpb-50 rel z-1"
-         style="background-image: url({{ asset('assets/images/hero/hero-two-bg.png') }})">
+         style="background-image: url({{ asset('assets/images/hero/hero-two-bg.png') }})" id="home">
     <div class="container">
         <h1 class="hero-title mb-100 rmb-50 wow fadeInUp delay-0-2s">
             Jasper
             <span class="arrow"><img class="wow fadeInLeft delay-0-6s"
                                      src=" {{ asset('assets/images/hero/title-arrow.png') }}" alt="Arrow"></span>
-            Agency
+            Stack
         </h1>
         <div class="row align-items-center justify-content-between">
             <div class="col-xl-3 col-lg-4">
@@ -49,10 +49,12 @@
                         <img src=" {{ asset('assets/images/banner/add-banner.png')}}" alt="Banner">
                     </div>
                     <div class="content mt-20">
-                        <span class="number">150+</span>
-                        <h6>Project Complete</h6>
+                        <span class="number" style="font-size: 40px">JasperStack</span>
+{{--                        <h6>Project Complete</h6>--}}
                         <hr>
-                        <p>Quis autem vel eum reprehe voluptate velit esse quam</p>
+                        <p>
+                            Attain your goals with our dedicated team, turning aspirations into reality through collaborative excellence
+                        </p>
                     </div>
                 </div>
             </div>
@@ -138,10 +140,6 @@
             <div class="skill-item">
                 <img src=" {{ asset('assets/images/skills/flutter.png')}}" alt="flutter" width="44" height="35">
                 <span class="text">Flutter</span>
-            </div>
-            <div class="skill-item">
-                <img src=" {{ asset('assets/images/skills/django.png')}}" alt="django" width="44" height="35">
-                <span class="text">Django</span>
             </div>
         </div>
     </div>

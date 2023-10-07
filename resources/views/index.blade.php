@@ -26,7 +26,7 @@
     <!-- Headline Area end -->
 
     <!-- Project Timeline-two Area start -->
-    @include('includes.project')
+{{--    @include('includes.project')--}}
     <!-- Project Timeline Two Area end -->
 
     <!-- Team Area start -->
@@ -46,11 +46,11 @@
     <!-- Headline Area end -->
 
     <!-- Testimonial Area start -->
-    @include('includes.reference')
+    {{--    @include('includes.reference')--}}
     <!-- Testimonial Area end -->
 
     <!-- Blog Style Two start -->
-    @include('includes.blog')
+    @include('includes.contact-us')
     <!-- Blog Style Two end -->
 
 @endsection

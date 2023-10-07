@@ -3,6 +3,7 @@
 namespace App\Http\Requests\Home\Contact;
 
 use Illuminate\Foundation\Http\FormRequest;
+use Illuminate\Validation\Rule;
 
 class StoreRequest extends FormRequest
 {
@@ -30,6 +31,10 @@ class StoreRequest extends FormRequest
             'email' => [
                 'required',
                 'email'
+            ],
+            'type' => [
+                'sometimes',
+                Rule::in(['new_project', 'improve_product', 'others'])
             ],
             'message' => [
                 'required'
