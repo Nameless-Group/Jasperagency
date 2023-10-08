@@ -7,6 +7,7 @@
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <!-- Title -->
     <title> @yield('title', 'PekHub')</title>
@@ -88,9 +89,9 @@
 <!-- Toastr script -->
 <script src="{{ asset('assets/plugins/toastr/toastr.min.js') }}"></script>
 
-<script  src="{{ asset('assets/js/jquery.ajaxchimp.min.js') }}"> </script>
-<script  src="{{ asset('assets/js/form-validator.min.js') }}"> </script>
-<script  src="{{ asset('assets/js/contact-form-script.js') }}"> </script>
+<script src="{{ asset('assets/js/jquery.ajaxchimp.min.js') }}"></script>
+<script src="{{ asset('assets/js/form-validator.min.js') }}"></script>
+<script src="{{ asset('assets/js/contact-form-script.js') }}"></script>
 
 @include('includes.flashMessages')
 <script>

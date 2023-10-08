@@ -16,42 +16,47 @@
     });
 
 
-    function submitForm(){
+    function submitForm() {
         // Initiate Variables With Form Content
-        var fullName = $("#fullname").val();
-        var email = $("#email").val();
-        var type = $("#type").val();
-        var message = $("#message").val();
-
+        var formData = new FormData($("#contactForm")[0]);
 
         $.ajax({
             type: "POST",
             url: '/home/contact-us',
-            data: "fullname=" + fullName + "&email=" + email + "&type=" + type + "&message=" + message,
-            success : function(text){
-                if (text == "success"){
+            headers: {
+                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+            },
+            data: formData,
+            contentType: false,
+            processData: false,
+            success: function (res, textStatus, xhr) {
+                if (xhr.status === 204) {
                     formSuccess();
                 } else {
                     formError();
-                    submitMSG(false,text);
+                    submitMSG(false, res.message);
                 }
+            },
+            error: function (res) {
+                formError();
+                submitMSG(false, res.message);
             }
         });
     }
 
-    function formSuccess(){
+    function formSuccess() {
         $("#contactForm")[0].reset();
-        submitMSG(true, "Message Submitted!")
+        toastr.success('We received your message successfully');
     }
 
-    function formError(){
-        $("#contactForm").removeClass().addClass('shake animated').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+    function formError() {
+        $("#contactForm").removeClass().addClass('shake animated').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
             $(this).removeClass();
         });
     }
 
-    function submitMSG(valid, msg){
-        if(valid){
+    function submitMSG(valid, msg) {
+        if (valid) {
             var msgClasses = "h4 text-left tada animated text-success";
         } else {
             var msgClasses = "h4 text-left text-danger";

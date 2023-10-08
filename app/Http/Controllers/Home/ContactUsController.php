@@ -5,19 +5,21 @@ namespace App\Http\Controllers\Home;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\Home\Contact\StoreRequest;
 use App\Models\Home\Contact;
-use Illuminate\Http\RedirectResponse;
+use Illuminate\Http\JsonResponse;
+use Illuminate\Http\Response;
 
 class ContactUsController extends Controller
 {
     /**
      * @param StoreRequest $request
-     * @return RedirectResponse
+     * @return JsonResponse
      */
-    public function store(StoreRequest $request): RedirectResponse
+    public function store(StoreRequest $request): JsonResponse
     {
-        dd("called");
         $data = $request->validated();
         Contact::query()->create($data);
-        return back()->with('success', 'Your message created successfully');
+        return response()->json([
+            'message' => 'Your message submitted successfully!'
+        ], 204);
     }
 }

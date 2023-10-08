@@ -33,7 +33,7 @@ class StoreRequest extends FormRequest
                 'email'
             ],
             'type' => [
-                'sometimes',
+                'nullable',
                 Rule::in(['new_project', 'improve_product', 'others'])
             ],
             'message' => [

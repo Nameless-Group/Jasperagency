@@ -52,7 +52,7 @@
             <div class="col">
                 <div class="team-member wow fadeInUp delay-0-4s">
                     <div class="image">
-                        <img src=" {{ asset('assets/images/team/minlwin.jpg')}}" alt="Team Member">
+                        <img src=" {{ asset('assets/images/team/kenan.jpeg')}}" alt="Team Member">
                     </div>
                     <div class="content">
                         <h4>Min Lwin Kyaw</h4>
