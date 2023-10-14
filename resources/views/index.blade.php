@@ -26,7 +26,7 @@
     <!-- Headline Area end -->
 
     <!-- Project Timeline-two Area start -->
-{{--    @include('includes.project')--}}
+    {{--    @include('includes.project')--}}
     <!-- Project Timeline Two Area end -->
 
     <!-- Team Area start -->
@@ -38,7 +38,7 @@
     <!-- Why Choose Us end -->
 
     <!-- Pricing style three start -->
-    @include('includes.pricing')
+    @include('includes.packages')
     <!-- Pricing style three end -->
 
     <!-- Headline area start -->

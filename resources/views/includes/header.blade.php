@@ -37,7 +37,7 @@
                                 <li><a href="#about">About Us</a></li>
                                 <li><a href="#technologies">Technologies</a></li>
                                 <li><a href="#services">Services</a></li>
-                                <li><a href="#pricing">Pricing</a></li>
+                                <li><a href="#packages">Packages</a></li>
                                 <li><a href="#conatct-us">Contact Us</a></li>
                             </ul>
                         </div>

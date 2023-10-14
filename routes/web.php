@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Home\ContactUsController;
+use App\Http\Controllers\Home\PackageDetailController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -20,4 +21,5 @@ Route::get('/', function () {
 
 Route::prefix('home')->group(function () {
     Route::post('/contact-us', [ContactUsController::class, 'store'])->name('contact_us.store');
+    Route::get('/package/{package}/details', [PackageDetailController::class, 'show'])->name('package.detail.show');
 });

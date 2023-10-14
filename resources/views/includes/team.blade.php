@@ -14,7 +14,7 @@
             <div class="col">
                 <div class="team-member wow fadeInUp delay-0-2s">
                     <div class="image">
-                        <img src=" {{ asset('assets/images/team/mine.jpg')}}" alt="Team Member">
+                        <img src=" {{ asset('assets/images/team/ahmed.png')}}" alt="Team Member">
                     </div>
                     <div class="content">
                         <h4>kanaan Asmail</h4>
@@ -33,7 +33,7 @@
             <div class="col">
                 <div class="team-member wow fadeInUp delay-0-3s">
                     <div class="image">
-                        <img src=" {{ asset('assets/images/team/profile-pic.png')}}" alt="Team Member">
+                        <img src=" {{ asset('assets/images/team/hammud.png')}}" alt="Team Member">
                     </div>
                     <div class="content">
                         <h4>Hammud ElHammud</h4>
@@ -52,7 +52,7 @@
             <div class="col">
                 <div class="team-member wow fadeInUp delay-0-4s">
                     <div class="image">
-                        <img src=" {{ asset('assets/images/team/kenan.jpeg')}}" alt="Team Member">
+                        <img src=" {{ asset('assets/images/team/ahmed.png')}}" alt="Team Member">
                     </div>
                     <div class="content">
                         <h4>Min Lwin Kyaw</h4>

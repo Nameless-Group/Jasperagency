@@ -1,10 +1,15 @@
-<section class="about-area pt-100 rpt-70 rel z-1" id="about">
+<div class="headline-area pt-90 rpt-85 rel z-1">
+    <div class="container-fluid">
+        <div class="headline-text marquee"><span><span>About </span> JasperStack</span></div>
+    </div>
+</div>
+<section class="what-we-do-area pt-100 rpt-70 rel z-1" id="about">
     <div class="container">
         <div class="row justify-content-between">
             <div class="col-lg-7">
                 <div class="about-content">
                     <div class="section-title mb-40 wow fadeInUp delay-0-2s">
-                        <span class="sub-title mb-15">About Company</span>
+                        <span class="sub-title mb-15">What We do </span>
                         <h3>At Jasper Agency, we proudly position ourselves as a dedicated web development agency committed to excellence.</h3>
                     </div>
                     <div class="text-left-border mt-60 mb-65 wow fadeInUp delay-0-2s">

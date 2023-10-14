@@ -32,7 +32,7 @@
                         <h5>Front-end development</h5>
                     </div>
                     <div class="image">
-                        <img src=" {{ asset('assets/images/services/service6.jpg')}}" alt="Service">
+                        <img src=" {{ asset('assets/images/services/frontend-2.png')}}" alt="Service" width="280" height="116">
                     </div>
                 </div>
             </div>

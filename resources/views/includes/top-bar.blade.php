@@ -1,80 +1,72 @@
-<section class="hero-area-two pt-220 rpt-150 pb-80 rpb-50 rel z-1"
-         style="background-image: url({{ asset('assets/images/hero/hero-two-bg.png') }})" id="home">
+<section id="home" class="hero-area pt-185 rpt-150 rel z-1">
     <div class="container">
-        <h1 class="hero-title mb-100 rmb-50 wow fadeInUp delay-0-2s">
-            Jasper
-            <span class="arrow"><img class="wow fadeInLeft delay-0-6s"
-                                     src=" {{ asset('assets/images/hero/title-arrow.png') }}" alt="Arrow"></span>
-            Stack
-        </h1>
-        <div class="row align-items-center justify-content-between">
-            <div class="col-xl-3 col-lg-4">
-                <div class="hero-two-content mb-50 wow fadeInRight delay-0-2s">
-                    <p>Bridging the divide from your concept to the final product is crucial</p>
-                    <img class="mt-20" src=" {{ asset('assets/images/hero/title-arrow.png') }}" alt="Arrow">
-                    <div class="authors-text mt-45">
-                        <img src=" {{ asset('assets/images/hero/author1.png')}}" alt="Author">
-                        <img src=" {{ asset('assets/images/hero/author2.png')}}" alt="Author">
-                        <img src=" {{ asset('assets/images/hero/author3.png')}}" alt="Author">
-                        <img src=" {{ asset('assets/images/hero/author4.png')}}" alt="Author">
-                        <i class="fal fa-plus"></i>
-                        <span class="text">100+ Popular Clients</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="hero-two-image mb-50 wow zoomIn delay-0-2s">
-                    <img src=" {{ asset('assets/images/hero/hero-two.jpg')}}" alt="Hero">
-                </div>
-            </div>
-            <div class="col-lg-2">
-                <div class="hero-two-btn mb-50 wow fadeInLeft delay-0-2s">
-                    <a class="explore-more" href="about.html"><i class="fas fa-arrow-right"></i>
-                        <span>Explore more</span></a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-<!-- Advertise Area Start -->
-<section class="advertise-banner-area rel z-1">
-    <div class="container container-1290">
         <div class="row">
-            <div class="col-lg-7 wow fadeInUp delay-0-2s">
-                <div class="advertise-banner style-one bgc-primary"
-                     style="background-image: url( {{ asset('assets/images/banner/add-banner-bg.png') }})">
-                    <div class="image">
-                        <img src=" {{ asset('assets/images/banner/add-banner.png')}}" alt="Banner">
-                    </div>
-                    <div class="content mt-20">
-                        <span class="number" style="font-size: 40px">JasperStack</span>
-{{--                        <h6>Project Complete</h6>--}}
-                        <hr>
-                        <p>
-                            Attain your goals with our dedicated team, turning aspirations into reality through collaborative excellence
-                        </p>
-                    </div>
+            <div class="col-lg-8">
+                <div class="hero-content wow fadeInLeft delay-0-2s animated" style="visibility: visible; animation-name: fadeInLeft;">
+                    <h1><span>Jasper</span> <i>Stack</i></h1>
                 </div>
             </div>
-            <div class="col-lg-5 wow fadeInUp delay-0-4s">
-                <div class="advertise-banner style-two bg-white"
-                     style="background-image: url( {{ asset('assets/images/banner/star-vector.png') }})">
-                    <h3>Innovative Web Development Solutions</h3>
-                    <hr class="mb-35">
-                    <div class="authors-text">
-                        <img src=" {{ asset('assets/images/hero/mine.jpg')}}" alt="kanaan">
-                        <img src=" {{ asset('assets/images/hero/hammud.jpg')}}" alt="hammud">
-                        <img src=" {{ asset('assets/images/hero/minlwin.jpg')}}" alt="minlwin">
-                        <i class="fal fa-plus"></i>
-                        <span class="text">We denounce indignatione dislike mende charms</span>
-                    </div>
+            <div class="col-lg-4">
+                <div class="hero-right-image mt-20 wow fadeInUp delay-0-4s animated" style="visibility: visible; animation-name: fadeInUp;">
+                    <img src="{{ asset('assets/images/hero/hero-right.png') }}" alt="Hero">
                 </div>
             </div>
         </div>
     </div>
+    <div class="container-fluid">
+        <div class="hero-bottom-image">
+            <img src="{{ asset('assets/images/hero/hero.jpg') }}" alt="Hero">
+            <div class="hero-social">
+                <a href="#"><i class="fab fa-facebook-f"></i> <span>Facebook</span></a>
+                <a href="#"><i class="fab fa-twitter"></i> <span>Twitter</span></a>
+                <a href="#"><i class="fab fa-dribbble"></i> <span>Dribbble</span></a>
+                <a href="#"><i class="fab fa-behance"></i> <span>Behance</span></a>
+            </div>
+        </div>
+    </div>
+    <div class="hero-bg">
+        <img src="{{ asset('assets/images/hero/hero-bg.png') }}" alt="hero">
+    </div>
 </section>
+
+
+{{--<!-- Advertise Area Start -->--}}
+{{--<section class="advertise-banner-area rel z-1">--}}
+{{--    <div class="container container-1290">--}}
+{{--        <div class="row">--}}
+{{--            <div class="col-lg-7 wow fadeInUp delay-0-2s">--}}
+{{--                <div class="advertise-banner style-one bgc-primary"--}}
+{{--                     style="background-image: url( {{ asset('assets/images/banner/add-banner-bg.png') }})">--}}
+{{--                    <div class="image">--}}
+{{--                        <img src=" {{ asset('assets/images/banner/add-banner.png')}}" alt="Banner">--}}
+{{--                    </div>--}}
+{{--                    <div class="content mt-20">--}}
+{{--                        <span class="number" style="font-size: 40px">JasperStack</span>--}}
+{{--                        <h6>Project Complete</h6>--}}
+{{--                        <hr>--}}
+{{--                        <p>--}}
+{{--                            Attain your goals with our dedicated team, turning aspirations into reality through collaborative excellence--}}
+{{--                        </p>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--            <div class="col-lg-5 wow fadeInUp delay-0-4s">--}}
+{{--                <div class="advertise-banner style-two bg-white"--}}
+{{--                     style="background-image: url( {{ asset('assets/images/banner/star-vector.png') }})">--}}
+{{--                    <h3>Innovative Web Development Solutions</h3>--}}
+{{--                    <hr class="mb-35">--}}
+{{--                    <div class="authors-text">--}}
+{{--                        <img src=" {{ asset('assets/images/hero/mine.jpg')}}" alt="kanaan">--}}
+{{--                        <img src=" {{ asset('assets/images/hero/hammud.jpg')}}" alt="hammud">--}}
+{{--                        <img src=" {{ asset('assets/images/hero/minlwin.jpg')}}" alt="minlwin">--}}
+{{--                        <i class="fal fa-plus"></i>--}}
+{{--                        <span class="text">We denounce indignatione dislike mende charms</span>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </div>--}}
+{{--</section>--}}
 <!-- Advertise Area End -->
 
 

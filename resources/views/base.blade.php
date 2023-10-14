@@ -10,7 +10,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <!-- Title -->
-    <title> @yield('title', 'PekHub')</title>
+    <title> @yield('title', 'JasperStack')</title>
     <!-- Favicon Icon -->
     <link rel="shortcut icon" href="{{ asset('assets/images/favicon.png') }}" type="image/x-icon">
     <!-- Google Fonts -->
