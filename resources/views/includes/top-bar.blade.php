@@ -2,12 +2,14 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8">
-                <div class="hero-content wow fadeInLeft delay-0-2s animated" style="visibility: visible; animation-name: fadeInLeft;">
+                <div class="hero-content wow fadeInLeft delay-0-2s animated"
+                     style="visibility: visible; animation-name: fadeInLeft;">
                     <h1><span>Jasper</span> <i>Stack</i></h1>
                 </div>
             </div>
             <div class="col-lg-4">
-                <div class="hero-right-image mt-20 wow fadeInUp delay-0-4s animated" style="visibility: visible; animation-name: fadeInUp;">
+                <div class="hero-right-image mt-20 wow fadeInUp delay-0-4s animated"
+                     style="visibility: visible; animation-name: fadeInUp;">
                     <img src="{{ asset('assets/images/hero/hero-right.png') }}" alt="Hero">
                 </div>
             </div>
@@ -16,12 +18,6 @@
     <div class="container-fluid">
         <div class="hero-bottom-image">
             <img src="{{ asset('assets/images/hero/hero.jpg') }}" alt="Hero">
-            <div class="hero-social">
-                <a href="#"><i class="fab fa-facebook-f"></i> <span>Facebook</span></a>
-                <a href="#"><i class="fab fa-twitter"></i> <span>Twitter</span></a>
-                <a href="#"><i class="fab fa-dribbble"></i> <span>Dribbble</span></a>
-                <a href="#"><i class="fab fa-behance"></i> <span>Behance</span></a>
-            </div>
         </div>
     </div>
     <div class="hero-bg">
@@ -76,11 +72,47 @@
         <div class="row justify-content-center">
             <div class="col-lg-6">
                 <div class="section-title text-center mb-60 wow fadeInUp delay-0-2s">
-                    <h2>Several topics await you, promising skill enhancement</h2>
+                    <h2>Explore a variety of subjects to boost your projects with our Digital Solutions expertise.</h2>
                 </div>
             </div>
         </div>
         <div class="skills-wrap">
+            <div class="skill-item">
+                <img src=" {{ asset('assets/images/skills/php.png')}}" alt="php">
+                <span class="text">php</span>
+            </div>
+            <div class="skill-item">
+                <img src=" {{ asset('assets/images/skills/laravel.png')}}" alt="laravel" width="44" height="35">
+                <span class="text">Laravel</span>
+            </div>
+            <div class="skill-item">
+                <img src=" {{ asset('assets/images/skills/symfony.png')}}" alt="symfony" width="44" height="35">
+                <span class="text">Symfony</span>
+            </div>
+            <div class="skill-item">
+                <img src=" {{ asset('assets/images/skills/javascript.png')}}" alt="javascript">
+                <span class="text">javascript</span>
+            </div>
+            <div class="skill-item">
+                <img src=" {{ asset('assets/images/skills/react.png')}}" alt="react">
+                <span class="text">React</span>
+            </div>
+            <div class="skill-item">
+                <img src=" {{ asset('assets/images/skills/vue.png')}}" alt="SkillIcon">
+                <span class="text">Vue.js</span>
+            </div>
+            <div class="skill-item">
+                <img src=" {{ asset('assets/images/skills/next.png')}}" alt="next" width="44" height="35">
+                <span class="text">Next.js</span>
+            </div>
+            <div class="skill-item">
+                <img src=" {{ asset('assets/images/skills/node-js.png')}}" alt="node">
+                <span class="text">Node.js</span>
+            </div>
+            <div class="skill-item">
+                <img src=" {{ asset('assets/images/skills/flutter.png')}}" alt="flutter" width="44" height="35">
+                <span class="text">Flutter</span>
+            </div>
             <div class="skill-item">
                 <img src=" {{ asset('assets/images/skills/bootstrap.png')}}" alt="bootstrap">
                 <span class="text">Bootstrap</span>
@@ -94,44 +126,8 @@
                 <span class="text">CSS</span>
             </div>
             <div class="skill-item">
-                <img src=" {{ asset('assets/images/skills/javascript.png')}}" alt="javascript">
-                <span class="text">javascript</span>
-            </div>
-            <div class="skill-item">
-                <img src=" {{ asset('assets/images/skills/react.png')}}" alt="react">
-                <span class="text">React</span>
-            </div>
-            <div class="skill-item">
-                <img src=" {{ asset('assets/images/skills/php.png')}}" alt="php">
-                <span class="text">php</span>
-            </div>
-            <div class="skill-item">
-                <img src=" {{ asset('assets/images/skills/node-js.png')}}" alt="node">
-                <span class="text">Node.js</span>
-            </div>
-            <div class="skill-item">
                 <img src=" {{ asset('assets/images/skills/saas.png')}}" alt="saas">
                 <span class="text">Sass</span>
-            </div>
-            <div class="skill-item">
-                <img src=" {{ asset('assets/images/skills/vue.png')}}" alt="SkillIcon">
-                <span class="text">Vue.js</span>
-            </div>
-            <div class="skill-item">
-                <img src=" {{ asset('assets/images/skills/next.png')}}" alt="next" width="44" height="35">
-                <span class="text">Next.js</span>
-            </div>
-            <div class="skill-item">
-                <img src=" {{ asset('assets/images/skills/laravel.png')}}" alt="laravel" width="44" height="35">
-                <span class="text">Laravel</span>
-            </div>
-            <div class="skill-item">
-                <img src=" {{ asset('assets/images/skills/symfony.png')}}" alt="symfony" width="44" height="35">
-                <span class="text">Symfony</span>
-            </div>
-            <div class="skill-item">
-                <img src=" {{ asset('assets/images/skills/flutter.png')}}" alt="flutter" width="44" height="35">
-                <span class="text">Flutter</span>
             </div>
         </div>
     </div>

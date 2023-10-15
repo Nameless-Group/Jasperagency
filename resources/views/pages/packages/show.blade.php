@@ -10,11 +10,11 @@
              style="background-image: url({{ asset('assets/images/banner/banner-bg.jpg') }});">
         <div class="container">
             <div class="banner-inner rpt-10">
-                <h2 class="page-title wow fadeInUp delay-0-2s">package Details</h2>
+                <h2 class="page-title wow fadeInUp delay-0-2s">{{ $package->name }}</h2>
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb justify-content-center wow fadeInUp delay-0-4s">
                         <li class="breadcrumb-item"><a href="/">Home</a></li>
-                        <li class="breadcrumb-item active">{{ $package->name }}</li>
+                        <li class="breadcrumb-item active">Packages</li>
                     </ol>
                 </nav>
             </div>

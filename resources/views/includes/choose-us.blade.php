@@ -1,11 +1,16 @@
-<section class="demo-area pt-100 rpt-70 rel z-1">
+<div class="headline-area pt-90 rpt-85 rel z-1">
+    <div class="container-fluid">
+        <div class="headline-text marquee"><span><span>Why </span> Choose <span> JasperStack</span></span></div>
+    </div>
+</div>
+<section class="demo-area pt-100 rpt-70 rel z-1" id="choose-us">
     <div class="container">
         <div class="row">
             <div class="col-xl-6 col-lg-8">
                 <div class="why-choose-us-content">
                     <div class="section-title mb-60 wow fadeInUp delay-0-2s">
                         <span class="sub-title mb-15">Why Choose Us</span>
-                        <h2>Web Design Company That You Can Trust</h2>
+                        <h2>Digital solution Company That You Can Trust</h2>
                     </div>
                     <div class="row gap-60">
                         <div class="col-md-6">
@@ -23,16 +28,16 @@
                                     <i class="far fa-chevron-right"></i>
                                     <h5>Premium Development</h5>
                                 </div>
-                                <p>Sed perspiciatis unde omnie natue site voluptatem accusan doloremque</p>
+                                <p>Our team specializes in premium development services, ensuring high-quality and tailored solutions.</p>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="why-choose-item wow fadeInUp delay-0-2s">
                                 <div class="why-choose-header">
                                     <i class="far fa-chevron-right"></i>
-                                    <h5>No contracts needed</h5>
+                                    <h5>Productive Team</h5>
                                 </div>
-                                <p>You can increase, pause or stop our services at any time leaving</p>
+                                <p>We value your feedback and are committed to delivering efficiently and swiftly</p>
                             </div>
                         </div>
                         <div class="col-md-6">

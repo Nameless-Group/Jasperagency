@@ -5,7 +5,7 @@
             <div class="col-lg-7">
                 <div class="section-title text-center mb-60 wow fadeInUp delay-0-2s">
                     <span class="sub-title mb-15">Popular Services</span>
-                    <h2>We Provide Amazing Web Design Solutions</h2>
+                    <h2>We Provide Amazing Digital Solutions</h2>
                 </div>
             </div>
         </div>
@@ -32,7 +32,7 @@
                         <h5>Front-end development</h5>
                     </div>
                     <div class="image">
-                        <img src=" {{ asset('assets/images/services/frontend-2.png')}}" alt="Service" width="280" height="116">
+                        <img src=" {{ asset('assets/images/services/service3.jpg')}}" alt="Service">
                     </div>
                 </div>
             </div>

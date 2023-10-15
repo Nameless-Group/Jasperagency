@@ -34,35 +34,18 @@
                         <div class="navbar-collapse collapse clearfix">
                             <ul class="navigation clearfix">
                                 <li><a href="#home">Home</a></li>
-                                <li><a href="#about">About Us</a></li>
                                 <li><a href="#technologies">Technologies</a></li>
                                 <li><a href="#services">Services</a></li>
                                 <li><a href="#packages">Packages</a></li>
+                                <li><a href="#team">Team</a></li>
+                                <li><a href="#choose-us">Why Choose us</a></li>
+                                <li><a href="#about">About Us</a></li>
                                 <li><a href="#conatct-us">Contact Us</a></li>
                             </ul>
                         </div>
 
                     </nav>
                     <!-- Main Menu End-->
-                </div>
-
-                <!-- Nav Search -->
-                <div class="nav-search py-10">
-                    <button class="far fa-search"></button>
-                    <form action="#" class="hide">
-                        <input type="text" placeholder="Search" class="searchbox" required="">
-                        <button type="submit" class="searchbutton far fa-search"></button>
-                    </form>
-                </div>
-
-                <!-- Menu Button -->
-                <div class="menu-btns">
-                    <!-- menu sidbar -->
-                    <div class="menu-sidebar">
-                        <button>
-                            <img src=" {{ asset('assets/images/icons/toggler.svg')}}" alt="Toggler">
-                        </button>
-                    </div>
                 </div>
             </div>
         </div>

@@ -1,21 +1,17 @@
 @extends('base')
-@section('title','Home')
+@section('title','JasperStack')
 
 @push('styles')
 @endpush
 
 @section('content')
     <!-- Hidden Sidebar -->
-    @include('includes.slick')
+{{--    @include('includes.slick')--}}
     <!--End Hidden Sidebar -->
 
     <!-- Hero Section Start -->
     @include('includes.top-bar')
     <!-- Hero Section End -->
-
-    <!-- About Us Area start -->
-    @include('includes.about-us')
-    <!-- About Us Area end -->
 
     <!-- Service Style Four start -->
     @include('includes.services')
@@ -37,12 +33,17 @@
     @include('includes.choose-us')
     <!-- Why Choose Us end -->
 
+    <!-- About Us Area start -->
+    @include('includes.about-us')
+    <!-- About Us Area end -->
+
+
     <!-- Pricing style three start -->
     @include('includes.packages')
     <!-- Pricing style three end -->
 
     <!-- Headline area start -->
-    @include('includes.headline', ['area' => 'bottom'])
+{{--    @include('includes.headline', ['area' => 'bottom'])--}}
     <!-- Headline Area end -->
 
     <!-- Testimonial Area start -->

@@ -5,47 +5,47 @@
     security and performance. This package includes premium services to help you reach your goals.</p><br>
 <h4>Additional information</h4>
 <ul class="list-style-three pt-10">
-    <li>Premium Website Design :
+    <li>Premium Website Design
         <p style="margin-left: 31px; color: rgba(255, 255, 255, 0.75);">Enjoy unlimited pages with a fully custom and
             responsive design.
         </p>
     </li>
-    <li>Mobile Optimization :
+    <li>Mobile Optimization
         <p style="margin-left: 31px; color: rgba(255, 255, 255, 0.75);">Your website will be optimized for all devices,
             ensuring a flawless user experience.
         </p>
     </li>
-    <li>Full Domain Management :
+    <li>Full Domain Management
         <p style="margin-left: 31px; color: rgba(255, 255, 255, 0.75);">
             We handle domain registration, renewals, and advanced DNS management for you.
         </p>
     </li>
-    <li>Dedicated High-Speed Hosting :
+    <li>Dedicated High-Speed Hosting
         <p style="margin-left: 31px; color: rgba(255, 255, 255, 0.75);">
             Benefit from dedicated hosting with fast performance and daily backups.
         </p>
     </li>
-    <li>Bandwidth :
+    <li>Bandwidth
         <p style="margin-left: 31px; color: rgba(255, 255, 255, 0.75);">
             Benefit from dedicated hosting with fast performance and daily backups.
         </p>
     </li>
-    <li>Complete SEO and Marketing :
+    <li>Complete SEO and Marketing
         <p style="margin-left: 31px; color: rgba(255, 255, 255, 0.75);">
             Our experts perform comprehensive on-page and off-page SEO, content creation, and social media marketing.
         </p>
     </li>
-    <li>Unlimited Email Addresses :
+    <li>Unlimited Email Addresses
         <p style="margin-left: 31px; color: rgba(255, 255, 255, 0.75);">
             Get unlimited custom email addresses with advanced features.
         </p>
     </li>
-    <li>Monthly Maintenance :
+    <li>Monthly Maintenance
         <p style="margin-left: 31px; color: rgba(255, 255, 255, 0.75);">
             Enjoy regular maintenance services, including updates, security checks, and backup management.
         </p>
     </li>
-    <li>Blog Setup :
+    <li>Blog Setup
         <p style="margin-left: 31px; color: rgba(255, 255, 255, 0.75);">
             We'll prepare a blog section on your website, allowing you to easily publish and manage your content.
         </p>

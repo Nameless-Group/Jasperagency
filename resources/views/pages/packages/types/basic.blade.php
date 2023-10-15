@@ -7,7 +7,7 @@
     for getting started.</p><br>
 <h4>Additional information</h4>
 <ul class="list-style-three pt-10">
-    <li>Website Design :
+    <li>Website Design
         <p style="margin-left: 31px; color: rgba(255, 255, 255, 0.75);">Our designers
             will prepare and organize a few
             templates that will match
@@ -15,32 +15,32 @@
             and clean look.
         </p>
     </li>
-    <li>Mobile Optimization :
+    <li>Mobile Optimization
         <p style="margin-left: 31px; color: rgba(255, 255, 255, 0.75);">Your website will be
             optimized for mobile devices, ensuring it looks great on smartphones and tablets.
         </p>
     </li>
-    <li>Domain Name :
+    <li>Domain Name
         <p style="margin-left: 31px; color: rgba(255, 255, 255, 0.75);">
             We'll help you select and set up the perfect domain name for your brand.
         </p>
     </li>
-    <li>Hosting :
+    <li>Hosting
         <p style="margin-left: 31px; color: rgba(255, 255, 255, 0.75);">
             Reliable hosting to ensure your website is always online and loading quickly.
         </p>
     </li>
-    <li>Bandwidth :
+    <li>Bandwidth
         <p style="margin-left: 31px; color: rgba(255, 255, 255, 0.75);">
             Moderate bandwidth to suit basic needs.
         </p>
     </li>
-    <li>Basic SEO :
+    <li>Basic SEO
         <p style="margin-left: 31px; color: rgba(255, 255, 255, 0.75);">
             We'll perform on-page SEO to make sure your website is search-engine friendly.
         </p>
     </li>
-    <li>Email Addresses :
+    <li>Email Addresses
         <p style="margin-left: 31px; color: rgba(255, 255, 255, 0.75);">
             Get up to 5 custom email addresses for a professional touch.
         </p>

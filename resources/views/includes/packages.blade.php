@@ -10,7 +10,7 @@
             <div class="col-xl-8 col-lg-10">
                 <div class="section-title text-center mb-60 wow fadeInUp delay-0-2s">
                     <span class="sub-title mb-20">Packages</span>
-                    <h2>Best Packages For All Projects</h2>
+                    <h2>Best Packages For All Your Projects</h2>
                 </div>
             </div>
         </div>
